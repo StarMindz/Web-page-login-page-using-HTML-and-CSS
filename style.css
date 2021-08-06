@@ -1,0 +1,75 @@
+body
+{
+	background: #6b5073;
+		
+}
+
+form
+{
+	margin:0px 30%;
+	text-align: center;
+	color:white;
+	border:	1px solid grey;
+	margin-top: 180px;
+	background:#4d2f41;
+	line-height: 50px;
+	
+}
+
+
+#one
+{
+	border: 2px solid blue;
+	border-radius: 20px;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+	transition: 0.5s
+}
+
+#one:focus
+{
+	width:230px;
+	border-color: green;
+	outline: none;
+}
+
+#two
+{
+	border: 2px solid blue;
+	border-radius: 20px;
+	text-align: center;
+	height:30px;
+	width:200px;
+	transition: 0.5s
+}
+
+#two:focus
+{
+	width:230px;
+	border-color:green;
+	outline:none;
+}
+
+#three
+{
+	border:1px solid green;
+	border-radius: 10px;
+	height:40px;
+	width:120px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+
+}
+
+#three:hover
+{
+	background: pink;
+	color:white;
+}
+
+h1
+{
+	text-transform: uppercase;
+	color: pink;
+}
